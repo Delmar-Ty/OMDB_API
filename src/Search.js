@@ -3,6 +3,8 @@ import Movies from './Movies';
 import { useState, useEffect } from 'react';
 
 const Search = () => {
+    //Finished
+
     const [query, setQuery] = useState('');
     const [movies, setMovies] = useState([]);
 
